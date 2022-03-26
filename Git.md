@@ -12,13 +12,13 @@ Git易于学习，面积小，性能快，具有廉价的本地库，方便的�
 
 版本控制其实最重要的是可以记录文件修改历史记录，从而让用户能够查看历史版本，方便版本切换。
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326140243538.png" alt="image-20220326140243538" style="zoom:67%;" />
+<img src="assets/image-20220326140243538.png" alt="image-20220326140243538" style="zoom:67%;" />
 
 ### 1.2 为什么需要版本控制
 
 从个人开发过渡到团队协作。
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326140851709.png" alt="image-20220326140851709" style="zoom: 67%;" />
+<img src="assets/image-20220326140851709.png" alt="image-20220326140851709" style="zoom: 67%;" />
 
 
 
@@ -36,7 +36,7 @@ Git易于学习，面积小，性能快，具有廉价的本地库，方便的�
   > - 坏处：
   >   1. 服务器宕机一小时，那么在这一小时内，谁都无法提交更新，也就无法协同工作。
   >
-  > <img src="E:\共享文件夹\MyBlogs\assets\image-20220326141231774.png" alt="image-20220326141231774" style="zoom: 50%;" />
+  > <img src="assets/image-20220326141231774.png" alt="image-20220326141231774" style="zoom: 50%;" />
 
 
 
@@ -50,13 +50,13 @@ Git易于学习，面积小，性能快，具有廉价的本地库，方便的�
   >   1. 服务器断网的情况下也可以进行开发（因为版本控制是在本地进行的）
   >   2. 每个客户端保存的也都是整个完整的项目（包含历史记录，更加安全）
   >
-  > <img src="E:\共享文件夹\MyBlogs\assets\image-20220326142253920.png" alt="image-20220326142253920" style="zoom:50%;" />
+  > <img src="assets/image-20220326142253920.png" alt="image-20220326142253920" style="zoom:50%;" />
 
 
 
 ### 1.4 Git工作机制
 
-![image-20220326143340552](E:\共享文件夹\MyBlogs\assets\image-20220326143340552.png)
+![image-20220326143340552](assets/image-20220326143340552.png)
 
 1. 工作区：
 
@@ -90,35 +90,35 @@ Git易于学习，面积小，性能快，具有廉价的本地库，方便的�
 
 ## 二、Git安装
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145211447.png" alt="image-20220326145211447" style="zoom:67%;" />
+<img src="assets/image-20220326145211447.png" alt="image-20220326145211447" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145228055.png" alt="image-20220326145228055" style="zoom:67%;" />
+<img src="assets/image-20220326145228055.png" alt="image-20220326145228055" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145240405.png" alt="image-20220326145240405" style="zoom:67%;" />
+<img src="assets/image-20220326145240405.png" alt="image-20220326145240405" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145257838.png" alt="image-20220326145257838" style="zoom:67%;" />
+<img src="assets/image-20220326145257838.png" alt="image-20220326145257838" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145316652.png" alt="image-20220326145316652" style="zoom:67%;" />
+<img src="assets/image-20220326145316652.png" alt="image-20220326145316652" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145330766.png" alt="image-20220326145330766" style="zoom:67%;" />
+<img src="assets/image-20220326145330766.png" alt="image-20220326145330766" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145346982.png" alt="image-20220326145346982" style="zoom:67%;" />
+<img src="assets/image-20220326145346982.png" alt="image-20220326145346982" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145400178.png" alt="image-20220326145400178" style="zoom:67%;" />
+<img src="assets/image-20220326145400178.png" alt="image-20220326145400178" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145435956.png" alt="image-20220326145435956" style="zoom:67%;" />
+<img src="assets/image-20220326145435956.png" alt="image-20220326145435956" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145458276.png" alt="image-20220326145458276" style="zoom:67%;" />
+<img src="assets/image-20220326145458276.png" alt="image-20220326145458276" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145511306.png" alt="image-20220326145511306" style="zoom:67%;" />
+<img src="assets/image-20220326145511306.png" alt="image-20220326145511306" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145524551.png" alt="image-20220326145524551" style="zoom:67%;" />
+<img src="assets/image-20220326145524551.png" alt="image-20220326145524551" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145540775.png" alt="image-20220326145540775" style="zoom:67%;" />
+<img src="assets/image-20220326145540775.png" alt="image-20220326145540775" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145558200.png" alt="image-20220326145558200" style="zoom:67%;" />
+<img src="assets/image-20220326145558200.png" alt="image-20220326145558200" style="zoom:67%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326145625820.png" alt="image-20220326145625820" style="zoom:67%;" />
+<img src="assets/image-20220326145625820.png" alt="image-20220326145625820" style="zoom:67%;" />
 
 
 
@@ -193,7 +193,7 @@ drwxr-xr-x 1 fengyz 1049089 0  3月 26 15:26 ../
 drwxr-xr-x 1 fengyz 1049089 0  3月 26 15:27 .git/
 ```
 
-![image-20220326152838599](E:\共享文件夹\MyBlogs\assets\image-20220326152838599.png)
+![image-20220326152838599](assets/image-20220326152838599.png)
 
 
 
@@ -521,13 +521,13 @@ hello git! hello atguigu!
 
 ## 四、Git分支操作
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326165303151.png" alt="image-20220326165303151" style="zoom:67%;" />
+<img src="assets/image-20220326165303151.png" alt="image-20220326165303151" style="zoom:67%;" />
 
 ### 4.1 什么是分支
 
 在版本控制过程中，同时推进多个任务，为每个任务，我们就可以创建每个任务的单独分支。使用分支意味着程序员可以把自己的工作从开发主线上分离开来，开发自己分支的时候，不会影响主线分支的运行。对于初学者而言，分支可以简单理解为副本，一个分支就是一个单独的副本。（分支底层其实也是指针的引用）
 
-![image-20220326170024468](E:\共享文件夹\MyBlogs\assets\image-20220326170024468.png)
+![image-20220326170024468](assets/image-20220326170024468.png)
 
 
 
@@ -1002,13 +1002,13 @@ HEAD 如果指向 hotfix，那么我们现在就在 hotfix 分支上。
 
 ### 5.1  团队内合作
 
-![image-20220326184047069](E:\共享文件夹\MyBlogs\assets\image-20220326184047069.png)
+![image-20220326184047069](assets/image-20220326184047069.png)
 
 
 
 ### 5.2 跨团队合作
 
-![image-20220326184614718](E:\共享文件夹\MyBlogs\assets\image-20220326184614718.png)
+![image-20220326184614718](assets/image-20220326184614718.png)
 
 
 
@@ -1016,9 +1016,9 @@ HEAD 如果指向 hotfix，那么我们现在就在 hotfix 分支上。
 
 ### 6.1 创建远程仓库
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326203605884.png" alt="image-20220326203605884" style="zoom:80%;" />
+<img src="assets/image-20220326203605884.png" alt="image-20220326203605884" style="zoom:80%;" />
 
-<img src="E:\共享文件夹\MyBlogs\assets\image-20220326203654911.png" alt="image-20220326203654911" style="zoom:80%;" />
+<img src="assets/image-20220326203654911.png" alt="image-20220326203654911" style="zoom:80%;" />
 
 ### 6.2 远程仓库操作
 
