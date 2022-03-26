@@ -1063,3 +1063,67 @@ git push 别名 分支
 
 ##### 6.2.2.2 案例
 
+```bash
+fengyz@fengyz-1 MINGW32 /e/MyBlogs (master)
+$ git push MyBlogs master
+Select an authentication method for 'https://github.com/':
+  1. Web browser (default)
+  2. Personal access token
+#选择登陆方式，选择浏览器登录
+option (enter for default): 1
+info: please complete authentication in your browser...
+```
+
+![image-20220326211210221](assets/image-20220326211210221.png)
+
+选择授权
+
+```bash
+fengyz@fengyz-1 MINGW32 /e/MyBlogs (master)
+$ git push MyBlogs master
+Select an authentication method for 'https://github.com/':
+  1. Web browser (default)
+  2. Personal access token
+option (enter for default): 1
+info: please complete authentication in your browser...
+Enumerating objects: 232, done.
+Counting objects: 100% (232/232), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (231/231), done.
+Writing objects: 100% (232/232), 14.64 MiB | 4.32 MiB/s, done.
+Total 232 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/ZzzPro/MyBlogs.git
+ * [new branch]      master -> master
+```
+
+push成功
+
+
+
+#### 6.2.3 拉取远程仓库到本地库
+
+##### 6.2.3.1 基本语法
+
+git pull 别名 分支名
+
+##### 6.2.3.2 案例
+
+```bash
+fengyz@fengyz-1 MINGW32 /e/MyBlogs (master)
+$ git pull MyBlogs master
+remote: Enumerating objects: 1115, done.
+remote: Counting objects: 100% (1115/1115), done.
+remote: Compressing objects: 100% (1111/1111), done.
+remote: Total 1113 (delta 0), reused 1113 (delta 0), pack-reused 0
+Receiving objects: 100% (1113/1113), 78.38 MiB | 4.89 MiB/s, done.
+From https://github.com/ZzzPro/MyBlogs
+ * branch            master     -> FETCH_HEAD
+   10cf77b..c79a62f  master     -> MyBlogs/master
+Updating files: 100% (1151/1151), done.
+Updating 10cf77b..c79a62f
+Fast-forward
+ "AJAX\345\237\272\347\241\200.md"                  | 1464 ++++++
+ 
+```
+
