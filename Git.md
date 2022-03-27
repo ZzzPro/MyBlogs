@@ -1127,3 +1127,26 @@ Fast-forward
  
 ```
 
+
+
+#### 6.2.4 克隆远程仓库到本地库
+
+##### 6.2.4.1 基本语法
+
+git clone 远程地址
+
+##### 6.2.4.2 案例
+
+```bash
+fengyz@fengyz-1 MINGW32 /e/clone
+$ git clone https://github.com/ZzzPro/MyBlogs.git
+Cloning into 'MyBlogs'...
+remote: Enumerating objects: 1350, done.
+remote: Counting objects: 100% (1350/1350), done.
+remote: Compressing objects: 100% (1341/1341), done.
+remote: Total 1350 (delta 8), reused 1348 (delta 6), pack-reused 0
+Receiving objects: 100% (1350/1350), 93.06 MiB | 5.26 MiB/s, done.
+Resolving deltas: 100% (8/8), done.
+Updating files: 100% (1377/1377), done.
+```
+
